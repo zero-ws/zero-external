@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>infix-mysql</artifactId>
-    <name>External / MySQL</name>
+    <name>Zero.Plugins.Dynamics.Database.MySQL</name>
     <dependencies>
         <dependency>
             <groupId>com.mysql</groupId>

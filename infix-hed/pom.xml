@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>infix-hed</artifactId>
-    <name>External / HED Runner</name>
+    <name>Zero.Plugins.Dynamics.HED</name>
     <dependencies>
         <dependency>
             <groupId>io.zerows</groupId>
