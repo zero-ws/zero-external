@@ -2,7 +2,6 @@ package io.mature.extension.infix.oracle12;
 
 
 import cn.vertxup.atom.domain.tables.pojos.MField;
-import com.hazelcast.internal.util.StringUtil;
 import io.mature.extension.infix.oracle12.cv.OracleStatement;
 import io.mature.extension.infix.oracle12.cv.OracleWord;
 import io.modello.atom.app.KDatabase;
@@ -103,8 +102,8 @@ public class OracleSentence extends AbstractSentence implements OracleStatement,
         final List<String> nullable = conn.select(sql, Metadata.NULLABLE);
         final String result = nullable.get(0);
         // 一致的情况，不发送 nullable 语句
-        return ((StringUtil.equalsIgnoreCase(result, "Y") && field.getIsNullable())
-            || (StringUtil.equalsIgnoreCase(result, "N") && !field.getIsNullable()))
+        return (("Y".equalsIgnoreCase(result) && field.getIsNullable())
+            || ("N".equalsIgnoreCase(result) && !field.getIsNullable()))
             ? Boolean.FALSE
             : Boolean.TRUE;
     }
