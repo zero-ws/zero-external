@@ -32,7 +32,7 @@
                         <configuration>
                             <executable>gpg2</executable>
                             <keyname>lang.yu</keyname>
-                            <passphrase>${env.Z_DBR_PASS}</passphrase>
+                            <passphrase>${dev.Z_DBR_PASS}</passphrase>
                         </configuration>
                     </execution>
                 </executions>
