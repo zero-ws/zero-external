@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-    <artifactId>zero-external</artifactId>
+    <artifactId>zero-plugins-external</artifactId>
     <name>Zero.Plugins.Dynamics.POM.${zero.version}</name>
     <modules>
         <module>infix-hed</module>
