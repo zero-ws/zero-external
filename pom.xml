@@ -10,11 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <artifactId>zero-plugins-external</artifactId>
-    <name>Zero.Plugins.Dynamics.POM.${zero.version}</name>
+    <name>Zero.Plugins.Dynamic.POM.${zero.version}</name>
     <modules>
-        <module>infix-hed</module>
-        <module>infix-mysql</module>
-        <module>infix-oracle</module>
+        <module>Zero.Plugins.Dynamic.Toolkit.HED</module>
+        <module>Zero.Plugins.Dynamic.Database.MySQL</module>
+        <module>Zero.Plugins.Dynamic.Database.Oracle</module>
     </modules>
     <build>
         <plugins>
