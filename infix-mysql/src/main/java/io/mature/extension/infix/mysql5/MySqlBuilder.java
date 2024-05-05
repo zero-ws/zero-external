@@ -1,9 +1,9 @@
 package io.mature.extension.infix.mysql5;
 
-import io.modello.dynamic.modular.jdbc.AoConnection;
-import io.modello.dynamic.modular.metadata.AbstractBuilder;
-import io.modello.dynamic.modular.metadata.AoReflector;
-import io.modello.dynamic.modular.metadata.AoSentence;
+import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
+import io.zerows.extension.mbse.basement.uca.metadata.AbstractBuilder;
+import io.zerows.extension.mbse.basement.uca.metadata.AoReflector;
+import io.zerows.extension.mbse.basement.uca.metadata.AoSentence;
 
 public class MySqlBuilder extends AbstractBuilder {
     /* 隐藏实现，外部不可初始化 */

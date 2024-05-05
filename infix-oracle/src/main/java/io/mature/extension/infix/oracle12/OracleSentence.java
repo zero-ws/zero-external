@@ -1,13 +1,13 @@
 package io.mature.extension.infix.oracle12;
 
 
-import cn.vertxup.atom.domain.tables.pojos.MField;
 import io.mature.extension.infix.oracle12.cv.OracleStatement;
 import io.mature.extension.infix.oracle12.cv.OracleWord;
 import io.modello.atom.app.KDatabase;
-import io.modello.dynamic.modular.jdbc.DataConnection;
-import io.modello.dynamic.modular.metadata.AbstractSentence;
-import io.vertx.mod.atom.cv.sql.SqlWord;
+import io.zerows.extension.mbse.basement.domain.tables.pojos.MField;
+import io.zerows.extension.mbse.basement.eon.sql.SqlWord;
+import io.zerows.extension.mbse.basement.uca.jdbc.DataConnection;
+import io.zerows.extension.mbse.basement.uca.metadata.AbstractSentence;
 
 import java.text.MessageFormat;
 import java.util.List;

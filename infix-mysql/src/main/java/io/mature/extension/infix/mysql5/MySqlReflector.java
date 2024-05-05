@@ -2,8 +2,8 @@ package io.mature.extension.infix.mysql5;
 
 import io.mature.extension.infix.mysql5.cv.MySqlStatement;
 import io.mature.extension.infix.mysql5.cv.MySqlWord;
-import io.modello.dynamic.modular.jdbc.AoConnection;
-import io.modello.dynamic.modular.metadata.AbstractReflector;
+import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
+import io.zerows.extension.mbse.basement.uca.metadata.AbstractReflector;
 import io.modello.eon.em.EmKey;
 
 import java.text.MessageFormat;

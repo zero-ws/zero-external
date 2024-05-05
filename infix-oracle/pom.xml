@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>io.zerows</groupId>
-            <artifactId>zero-atom</artifactId>
+            <artifactId>zero-extension-mbse-basement</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

@@ -2,8 +2,8 @@ package io.mature.extension.infix.oracle12;
 
 import io.mature.extension.infix.oracle12.cv.OracleStatement;
 import io.mature.extension.infix.oracle12.cv.OracleWord;
-import io.modello.dynamic.modular.jdbc.AoConnection;
-import io.modello.dynamic.modular.metadata.AbstractReflector;
+import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
+import io.zerows.extension.mbse.basement.uca.metadata.AbstractReflector;
 import io.modello.eon.em.EmKey;
 
 import java.text.MessageFormat;

@@ -1,12 +1,12 @@
 package io.mature.extension.infix.mysql5;
 
-import cn.vertxup.atom.domain.tables.pojos.MField;
 import io.mature.extension.infix.mysql5.cv.MySqlStatement;
 import io.mature.extension.infix.mysql5.cv.MySqlWord;
 import io.modello.atom.app.KDatabase;
-import io.modello.dynamic.modular.metadata.AbstractSentence;
 import io.vertx.core.json.JsonArray;
-import io.vertx.mod.atom.cv.em.CheckResult;
+import io.zerows.extension.mbse.basement.domain.tables.pojos.MField;
+import io.zerows.extension.mbse.basement.eon.em.CheckResult;
+import io.zerows.extension.mbse.basement.uca.metadata.AbstractSentence;
 
 import java.text.MessageFormat;
 import java.util.concurrent.ConcurrentHashMap;

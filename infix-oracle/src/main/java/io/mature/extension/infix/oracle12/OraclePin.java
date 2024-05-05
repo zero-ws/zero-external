@@ -2,12 +2,12 @@ package io.mature.extension.infix.oracle12;
 
 
 import io.modello.atom.app.KDatabase;
-import io.modello.dynamic.modular.jdbc.AoConnection;
-import io.modello.dynamic.modular.jdbc.DataConnection;
-import io.modello.dynamic.modular.jdbc.Pin;
-import io.modello.dynamic.modular.metadata.AoBuilder;
+import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
+import io.zerows.extension.mbse.basement.uca.jdbc.DataConnection;
+import io.zerows.extension.mbse.basement.uca.jdbc.Pin;
+import io.zerows.extension.mbse.basement.uca.metadata.AoBuilder;
 import io.modello.specification.action.HDao;
-import io.vertx.mod.atom.cv.AoCache;
+import io.zerows.extension.mbse.basement.eon.AoCache;
 
 /**
  * MySQL统一接口
