@@ -43,7 +43,6 @@
                 <configuration>
                     <!-- 输出设置：路径/风格 -->
                     <outputDirectory>${basedir}/document</outputDirectory>
-                    <reportOutputDirectory>${basedir}</reportOutputDirectory>
                     <!--                    <destDir>document</destDir>-->
                     <!-- 连接配置 -->
                     <doclint>none,-missing</doclint>
