@@ -12,9 +12,9 @@
     <artifactId>zero-plugins-external</artifactId>
     <name>Zero.Plugins.Dynamic.POM.${zero.version}</name>
     <modules>
-        <module>Zero.Plugins.Dynamic.Toolkit.HED</module>
-        <module>Zero.Plugins.Dynamic.Database.MySQL</module>
-        <module>Zero.Plugins.Dynamic.Database.Oracle</module>
+        <module>zero-plugins-dynamic-toolkit-hed</module>
+        <module>zero-plugins-dynamic-database-mysql</module>
+        <module>zero-plugins-dynamic-database-oracle</module>
     </modules>
     <build>
         <plugins>
