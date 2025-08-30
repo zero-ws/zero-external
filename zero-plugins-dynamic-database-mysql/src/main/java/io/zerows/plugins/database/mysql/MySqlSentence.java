@@ -1,6 +1,6 @@
 package io.zerows.plugins.database.mysql;
 
-import io.modello.atom.app.KDatabase;
+import io.zerows.common.app.KDatabase;
 import io.vertx.core.json.JsonArray;
 import io.zerows.extension.mbse.basement.domain.tables.pojos.MField;
 import io.zerows.extension.mbse.basement.eon.em.CheckResult;

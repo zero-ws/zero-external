@@ -1,7 +1,7 @@
 package io.zerows.plugins.database.oracle;
 
 
-import io.modello.atom.app.KDatabase;
+import io.zerows.common.app.KDatabase;
 import io.zerows.extension.mbse.basement.domain.tables.pojos.MField;
 import io.zerows.extension.mbse.basement.eon.sql.SqlWord;
 import io.zerows.extension.mbse.basement.uca.jdbc.DataConnection;

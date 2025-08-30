@@ -1,7 +1,7 @@
 package io.zerows.plugins.dynamic.toolkit.hed;
 
-import io.horizon.atom.common.KPair;
-import io.vertx.up.util.Ut;
+import io.zerows.common.program.KPair;
+import io.zerows.core.util.Ut;
 
 public class KeyGenerator {
     public static void main(final String[] args) {

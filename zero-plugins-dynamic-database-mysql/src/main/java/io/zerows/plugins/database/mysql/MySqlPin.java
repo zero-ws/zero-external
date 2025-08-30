@@ -1,7 +1,7 @@
 package io.zerows.plugins.database.mysql;
 
-import io.modello.atom.app.KDatabase;
-import io.modello.specification.action.HDao;
+import io.zerows.common.app.KDatabase;
+import io.zerows.specification.modeling.operation.HDao;
 import io.zerows.extension.mbse.basement.eon.AoCache;
 import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
 import io.zerows.extension.mbse.basement.uca.jdbc.DataConnection;
