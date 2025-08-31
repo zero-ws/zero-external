@@ -1,6 +1,6 @@
 package io.zerows.plugins.database.oracle;
 
-import io.zerows.agreed.constant.em.modeling.EmKey;
+import io.zerows.ams.constant.em.modeling.EmKey;
 import io.zerows.extension.mbse.basement.uca.jdbc.AoConnection;
 import io.zerows.extension.mbse.basement.uca.metadata.AbstractReflector;
 import io.zerows.plugins.database.oracle.eon.OracleStatement;
