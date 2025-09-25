@@ -15,8 +15,6 @@
         <module>zero-plugins-dynamic-toolkit-hed</module>
         <module>zero-plugins-dynamic-toolkit-dataload</module>
         <module>zero-plugins-dynamic-toolkit-datamenu</module>
-        <module>zero-plugins-dynamic-database-mysql</module>
-        <module>zero-plugins-dynamic-database-oracle</module>
     </modules>
     <build>
         <plugins>
